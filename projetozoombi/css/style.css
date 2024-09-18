@@ -18,6 +18,8 @@ body {
 }
 
 .caixa-principal{
+    border: 3px dashed white;
+    border-radius: 3px;
     background-color: var(--cor-principal);
     width: 90%;
     text-align: center;
@@ -35,9 +37,13 @@ button {
     border-radius: 20px;
     padding: 10px;
     transition: background-color 0.3s;
+    border: 1px dashed white;
+    border-radius: 5px;
+    margin-right: 10px;
 }
 
 button:hover {
     background-color: var(--cor-botao);
     color: var(--cor-secundaria);
 }
+

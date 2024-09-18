@@ -10,19 +10,19 @@ const perguntas = [
         alternativas: [
             {
                 texto: "A) Floresta",
-                afirmaçao: "afirmaçao"
+                afirmaçao: "afirmacao"
             },
             {
                 texto:"B) Deserto",
-                afirmaçao: "afirmaçao"
+                afirmaçao: "afirmacao"
             },
             {
                 texto:"C) Oceano",
-                afirmaçao: "afirmaçao"
+                afirmaçao: "afirmacao"
             },
             {
                 texto:"D) Montanhas",
-                afirmaçao: "afirmaçao"
+                afirmaçao: "afirmacao"
             }
         ]
     },
@@ -31,19 +31,19 @@ const perguntas = [
         alternativas: [
             {
                 texto: "A) Força",
-                afirmaçao: "afirmaçao"
+                afirmaçao: "afirmacao"
             },
             {
                 texto:"B) Agilidade",
-                afirmaçao: "afirmaçao"
+                afirmaçao: "afirmacao"
             },
             {
                 texto:"C) Inteligência",
-                afirmaçao: "afirmaçao"
+                afirmaçao: "afirmacao"
             },
             {
                 texto:"D) Resistência",
-                afirmaçao: "afirmaçao"
+                afirmaçao: "afirmacao"
             }
         ]
     },
@@ -52,19 +52,19 @@ const perguntas = [
         alternativas: [
             {
                 texto: "A) Carne",
-                afirmaçao: "afirmaçao"
+                afirmaçao: "afirmacao"
             },
             {
                 texto:"B) Plantas",
-                afirmaçao: "afirmaçao"
+                afirmaçao: "afirmacao"
             },
             {
                 texto:"C) Peixes",
-                afirmaçao: "afirmaçao"
+                afirmaçao: "afirmacao"
             },
             {
                 texto:"D) Incetos",
-                afirmaçao: "afirmaçao"
+                afirmaçao: "afirmacao"
             }
         ]
     },
@@ -73,19 +73,19 @@ const perguntas = [
         alternativas: [
             {
                 texto: "A) Correndo",
-                afirmaçao: "afirmaçao"
+                afirmaçao: "afirmacao"
             },
             {
                 texto:"B) Voando",
-                afirmaçao: "afirmaçao"
+                afirmaçao: "afirmacao"
             },
             {
                 texto:"C) Nadando",
-                afirmaçao: "afirmaçao"
+                afirmaçao: "afirmacao"
             },
             {
                 texto:"D) Escalando",
-                afirmaçao: "afirmaçao"
+                afirmaçao: "afirmacao"
             }
         ]
     },
@@ -94,19 +94,19 @@ const perguntas = [
         alternativas: [
             {
                 texto: "A) Emboscada",
-                afirmaçao: "afirmaçao"
+                afirmaçao: "afirmacao"
             },
             {
                 texto:"B) Ataque rápido",
-                afirmaçao: "afirmaçao"
+                afirmaçao: "afirmacao"
             },
             {
                 texto:"C) Caça em grupo",
-                afirmaçao: "afirmaçao"
+                afirmaçao: "afirmacao"
             },
             {
                 texto:"D) Paciência e espera",
-                afirmaçao: "afirmaçao"
+                afirmaçao: "afirmacao"
             }
         ]
     },
@@ -115,19 +115,19 @@ const perguntas = [
         alternativas: [
             {
                 texto: "A) Pequeno",
-                afirmaçao: "afirmaçao"
+                afirmaçao: "afirmacao"
             },
             {
                 texto:"B) Médio",
-                afirmaçao: "afirmaçao"
+                afirmaçao: "afirmacao"
             },
             {
                 texto:"C) Grande",
-                afirmaçao: "afirmaçao"
+                afirmaçao: "afirmacao"
             },
             {
                 texto:"D) Gigante",
-                afirmaçao: "afirmaçao"
+                afirmaçao: "afirmacao"
             }
         ]
     },
@@ -136,19 +136,19 @@ const perguntas = [
         alternativas: [
             {
                 texto: "A) Invisibilidade",
-                afirmaçao: "afirmaçao"
+                afirmaçao: "afirmacao"
             },
             {
                 texto:"B) Super velocidade",
-                afirmaçao: "afirmaçao"
+                afirmaçao: "afirmacao"
             },
             {
                 texto:"C) Super força",
-                afirmaçao: "afirmaçao"
+                afirmaçao: "afirmacao"
             },
             {
                 texto:"D) Regeneração rápida",
-                afirmaçao: "afirmaçao"
+                afirmaçao: "afirmacao"
             }
         ]
     }
@@ -182,14 +182,14 @@ function mostraAlternativas(){
 }
 
 function respostaSelecionada(opcaoSelecionada){
-    const afirmacoes = opcaoSelecionada.afirmacoes;
-    historiaFinal += afirmacoes + "";
+    const afirmacao = opcaoSelecionada.afirmacao;
+    historiaFinal += afirmacao + "";
     atual++;
     mostraPergunta();
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "";
+    caixaPerguntas.textContent = "wrgerhgrt";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
