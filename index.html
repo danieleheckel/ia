@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Zoombi</title>
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Que Animal Zumbificado Você Seria?</h1>
+        <div id="quiz">
+            <div class="question-container">
+                <h2 id="question"></h2>
+                <ul id="answers">
+                    <!-- As respostas vão aparecer aqui via JavaScript -->
+                </ul>
+            </div>
+            <div id="animal-image-container" class="hide">
+                <img id="animal-image" alt="Imagem do animal zumbificado">
+            </div>
+            <button id="next-btn" class="hide">Próxima Pergunta</button>
+        </div>
+        <div id="result" class="hide">
+            <h2 id="animal-result"></h2>
+            <div id="final-animal-image-container">
+                <img id="final-animal-image" alt="Imagem do animal zumbificado final">
+            </div>
+            <button id="restart-btn">Refazer Quiz</button>
+        </div>
+    </div>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
